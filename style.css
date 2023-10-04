@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.age_calc{
+    width: 450px;
+    background-color: #E5F4E3;
+    margin: 150px auto;
+    padding: 50px 25px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.flex{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    right: 60px;
+}
+.inp{
+    padding: 10px 5px;
+
+}
+.cal{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: rgb(7, 165, 233);
+    display: block;
+    border: none;
+    border-radius: 5px;
+}
+.cal:hover{
+    background-color: rgb(2, 99, 255);
+    transition: 0.3s ease;
+}
